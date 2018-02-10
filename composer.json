@@ -1,0 +1,9 @@
+{
+  "name": "lelysi/dougie",
+  "licence": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dougie": "src/"
+    }
+  }
+}
