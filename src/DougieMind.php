@@ -13,7 +13,8 @@ class DougieMind
 
 	public function response(string $request): string
 	{
-		$inputWordSet = explode(' ', $request);
-		return implode(' ', array_slice($inputWordSet, 0, 2));
+		$inputWordSet = explode(' ', str_replace(['?', '!'], '', $request));
+		$preparePhrase = implode(' ', array_slice($inputWordSet, count($inputWordSet)-2));
+		return ucfirst($preparePhrase);
 	}
 }
