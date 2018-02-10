@@ -30,10 +30,10 @@ class DougieMindTest extends TestCase
 	 */
 	public function testResponse(string $request, string $response): void
 	{
-		$doougie = new DougieMind();
+		$dougie = new DougieMind();
 		$this->assertEquals(
 			$response,
-			$doougie->response($request)
+			$dougie->response($request)
 		);
 	}
 
@@ -42,7 +42,7 @@ class DougieMindTest extends TestCase
 	{
 		return [
 			'coffee question'	=> ['Dougie, do you like coffee?', 'Like coffee'],
-			'just question'		=> ['Do you prepare the report?', 'The report'],
+			'just question'		=> ['Did you prepare the report?', 'The report'],
 			'not a question'	=> ['You look great today!', 'Great today'],
 			'silence'			=> ['', ''],
 		];
