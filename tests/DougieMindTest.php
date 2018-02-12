@@ -42,6 +42,7 @@ class DougieMindTest extends TestCase
 	public function requestDataProvider(): array
 	{
 		return [
+			'less than zero dougie age'	=> [-5, 'Dougie, do you like coffee?', ''],
 			'first day coffee question'	=> [0, 'Dougie, do you like coffee?', ''],
 			'coffee question'			=> [3, 'Dougie, do you like coffee?', 'Like coffee'],
 			'just question'				=> [4, 'Did you prepare the report?', 'The report'],
