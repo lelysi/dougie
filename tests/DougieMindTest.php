@@ -48,6 +48,7 @@ class DougieMindTest extends TestCase
 			'just question'				=> [4, 'Did you prepare the report?', 'The report'],
 			'not a question'			=> [5, 'You look great today!', 'Great today'],
 			'silence'					=> [6, '', ''],
+			'short phrase'				=> [3, 'Hi!', 'Hi'],
 		];
 	}
 }
