@@ -1210,71 +1210,6 @@
         "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock."
     },
     {
-        "name": "phpspec/prophecy",
-        "version": "1.7.3",
-        "version_normalized": "1.7.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/phpspec/prophecy.git",
-            "reference": "e4ed002c67da8eceb0eb8ddb8b3847bb53c5c2bf"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/e4ed002c67da8eceb0eb8ddb8b3847bb53c5c2bf",
-            "reference": "e4ed002c67da8eceb0eb8ddb8b3847bb53c5c2bf",
-            "shasum": ""
-        },
-        "require": {
-            "doctrine/instantiator": "^1.0.2",
-            "php": "^5.3|^7.0",
-            "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
-            "sebastian/comparator": "^1.1|^2.0",
-            "sebastian/recursion-context": "^1.0|^2.0|^3.0"
-        },
-        "require-dev": {
-            "phpspec/phpspec": "^2.5|^3.2",
-            "phpunit/phpunit": "^4.8.35 || ^5.7"
-        },
-        "time": "2017-11-24T13:59:53+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.7.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Prophecy\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Konstantin Kudryashov",
-                "email": "ever.zet@gmail.com",
-                "homepage": "http://everzet.com"
-            },
-            {
-                "name": "Marcello Duarte",
-                "email": "marcello.duarte@gmail.com"
-            }
-        ],
-        "description": "Highly opinionated mocking framework for PHP 5.3+",
-        "homepage": "https://github.com/phpspec/prophecy",
-        "keywords": [
-            "Double",
-            "Dummy",
-            "fake",
-            "mock",
-            "spy",
-            "stub"
-        ]
-    },
-    {
         "name": "phar-io/version",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
@@ -1510,94 +1445,42 @@
         ]
     },
     {
-        "name": "symfony/yaml",
-        "version": "v3.4.4",
-        "version_normalized": "3.4.4.0",
+        "name": "phpspec/prophecy",
+        "version": "1.7.4",
+        "version_normalized": "1.7.4.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/yaml.git",
-            "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe"
+            "url": "https://github.com/phpspec/prophecy.git",
+            "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
-            "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
+            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
+            "reference": "9f901e29c93dae4aa77c0bb161df4276f9c9a1be",
             "shasum": ""
         },
         "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "conflict": {
-            "symfony/console": "<3.4"
+            "doctrine/instantiator": "^1.0.2",
+            "php": "^5.3|^7.0",
+            "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
+            "sebastian/comparator": "^1.1|^2.0",
+            "sebastian/recursion-context": "^1.0|^2.0|^3.0"
         },
         "require-dev": {
-            "symfony/console": "~3.4|~4.0"
+            "phpspec/phpspec": "^2.5|^3.2",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
         },
-        "suggest": {
-            "symfony/console": "For validating YAML files using the lint command"
-        },
-        "time": "2018-01-21T19:05:02+00:00",
+        "time": "2018-02-11T18:49:29+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "3.4-dev"
+                "dev-master": "1.7.x-dev"
             }
         },
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Yaml\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Yaml Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "phlak/config",
-        "version": "3.0.0",
-        "version_normalized": "3.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/PHLAK/Config.git",
-            "reference": "5e2ff2e0b4025e00461343cbbe609db56ef294c4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/PHLAK/Config/zipball/5e2ff2e0b4025e00461343cbbe609db56ef294c4",
-            "reference": "5e2ff2e0b4025e00461343cbbe609db56ef294c4",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.6",
-            "symfony/yaml": "^3.3"
-        },
-        "require-dev": {
-            "friendsofphp/php-cs-fixer": "^2.3",
-            "phpunit/phpunit": "^5.7"
-        },
-        "time": "2017-09-10T06:50:57+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "PHLAK\\Config\\": "src/"
+            "psr-0": {
+                "Prophecy\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -1606,10 +1489,24 @@
         ],
         "authors": [
             {
-                "name": "Chris Kankiewicz",
-                "email": "Chris@ChrisKankiewicz.com"
+                "name": "Konstantin Kudryashov",
+                "email": "ever.zet@gmail.com",
+                "homepage": "http://everzet.com"
+            },
+            {
+                "name": "Marcello Duarte",
+                "email": "marcello.duarte@gmail.com"
             }
         ],
-        "description": "Config loading and management"
+        "description": "Highly opinionated mocking framework for PHP 5.3+",
+        "homepage": "https://github.com/phpspec/prophecy",
+        "keywords": [
+            "Double",
+            "Dummy",
+            "fake",
+            "mock",
+            "spy",
+            "stub"
+        ]
     }
 ]

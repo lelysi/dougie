@@ -5,6 +5,15 @@ namespace Dougie;
 
 class DougieMind
 {
+	private $age;
+
+
+	public function __construct(int $age)
+	{
+		$this->age = $age;
+	}
+
+
 	public function greeting(): string
 	{
 		return 'Hello-o-o!';
@@ -13,6 +22,6 @@ class DougieMind
 
 	public function response(string $request): string
 	{
-		return (new ResponseFactory())->getResponse($request);
+		return (new ResponseFactory())->getResponse($this->age, $request);
 	}
 }
