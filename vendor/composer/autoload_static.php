@@ -19,6 +19,14 @@ class ComposerStaticInitf5c10d025743411b978111d817135090
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'S' => 
+        array (
+            'Symfony\\Component\\Yaml\\' => 23,
+        ),
+        'P' => 
+        array (
+            'PHLAK\\Config\\' => 13,
+        ),
         'D' => 
         array (
             'Dougie\\' => 7,
@@ -37,6 +45,14 @@ class ComposerStaticInitf5c10d025743411b978111d817135090
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'PHLAK\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phlak/config/src',
         ),
         'Dougie\\' => 
         array (

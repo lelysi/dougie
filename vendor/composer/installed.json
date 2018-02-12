@@ -1508,5 +1508,108 @@
             "testing",
             "xunit"
         ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v3.4.4",
+        "version_normalized": "3.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
+            "reference": "eab73b6c21d27ae4cd037c417618dfd4befb0bfe",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/console": "<3.4"
+        },
+        "require-dev": {
+            "symfony/console": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2018-01-21T19:05:02+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "phlak/config",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHLAK/Config.git",
+            "reference": "5e2ff2e0b4025e00461343cbbe609db56ef294c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHLAK/Config/zipball/5e2ff2e0b4025e00461343cbbe609db56ef294c4",
+            "reference": "5e2ff2e0b4025e00461343cbbe609db56ef294c4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6",
+            "symfony/yaml": "^3.3"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.3",
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2017-09-10T06:50:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHLAK\\Config\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Kankiewicz",
+                "email": "Chris@ChrisKankiewicz.com"
+            }
+        ],
+        "description": "Config loading and management"
     }
 ]
