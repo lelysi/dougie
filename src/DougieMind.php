@@ -3,6 +3,13 @@ declare(strict_types=1);
 
 namespace Dougie;
 
+/**
+ * Use this class as a library facade
+ * if you want to add dougie as a functionality to your code
+ *
+ * Class DougieMind
+ * @package Dougie
+ */
 class DougieMind
 {
 	private $age;
